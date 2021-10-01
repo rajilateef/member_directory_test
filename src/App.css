@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+
+/* .container {
+    height: 89 !important;
+    width: 375 !important;
+    color: black;
+    border-bottom: 1px rgb(51, 51, 51) solid;
+} */
+
+.item {
+    padding: 25px 15px 13px 15px;
+    margin-bottom: 13px;
+}
+
+.Wrap {
+    height: 45px !important;
+    width: 375px;
+    margin: 0px;
+}
+
+.item-text {
+    padding: 25px 9px 13px 4px;
+}
