@@ -1,8 +1,9 @@
 html,
 body {
+    padding: 0;
     margin: 0;
-    height: 100%;
-    overflow: hidden
+    overflow: hidden;
+    background-color: rgb(163, 163, 163);
 }
 
 
@@ -14,16 +15,18 @@ body {
 } */
 
 .item {
-    padding: 25px 15px 13px 15px;
+    padding: 0px 15px 13px 15px;
     margin-bottom: 13px;
 }
 
 .Wrap {
-    height: 45px !important;
+    height: 89px !important;
     width: 375px;
     margin: 0px;
+    padding: 0;
+    background-color: white;
 }
 
 .item-text {
-    padding: 25px 9px 13px 4px;
+    padding: 0px 9px 13px 4px;
 }

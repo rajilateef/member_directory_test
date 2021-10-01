@@ -32,7 +32,7 @@ class Listing extends React.Component {
                   
                   </Nav> */}
 
-  <Navbar >
+  <Navbar className="Wrap">
   {/* <Navbar.Brand href=""><img src={menu}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
     {/* <Nav className="mr-auto">
@@ -41,19 +41,19 @@ class Listing extends React.Component {
      
                       </Nav> */}
 
-                      <Nav className="Wrap">
+                      <Nav style={{ margin: '55px 0px 13px 20px' }}>
 
-                      <Nav.Item className="item">
+                      <Nav.Item className="">
                           <Nav.Link to="/home"> <img src={menu} /></Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="item-text">
+                        <Nav.Item style={{ paddingRight: '20px', paddingLeft: '30px' }}>
                           <Nav.Link to="" style={{ color: '#444444' }}>Members Directory</Nav.Link>
                         </Nav.Item>
                        
-                        <Nav.Item className="item" >
-                          <Nav.Link to="" style={{ marginRight: '-10px !important' }}><img src={filter} /></Nav.Link>
+                        <Nav.Item className="" style={{ marginLeft: '20px !important' }} >
+                          <Nav.Link to="" ><img src={filter} /></Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="item" style={{ marginLeft: '-20px' }}>
+                        <Nav.Item className="" style={{ paddingLeft: '10px' }}>
                           <Nav.Link ><img src={search} /></Nav.Link>
                         </Nav.Item>
                       </Nav>
