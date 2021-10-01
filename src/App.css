@@ -25,8 +25,9 @@ body {
     margin: 0px;
     padding: 0;
     background-color: white;
+    border-bottom: black 1px solid;
 }
 
-.item-text {
-    padding: 0px 9px 13px 4px;
+.bread {
+    font-size: 12px;
 }
